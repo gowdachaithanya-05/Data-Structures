@@ -7,8 +7,7 @@ using namespace std;
  for(int i=1 ; i<=n; i++){
     if(n%i==0){
         count += 1;
-        
-    } 
+        } 
  }
  if (count==2){
      return true;
